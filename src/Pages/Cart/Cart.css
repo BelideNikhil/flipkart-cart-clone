@@ -1,0 +1,19 @@
+.cart-products-wrapper {
+    width: 80%;
+    margin: auto;
+}
+.save-later-wrapper {
+    width: 80%;
+    margin: auto;
+}
+.save-later-wrapper .card {
+    width: 20rem;
+}
+
+.cart-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 90%;
+    margin: 2rem auto;
+}

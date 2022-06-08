@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.btn-primary {
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    background-color: #fb641b;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-secondary {
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid #2874f0;
+}

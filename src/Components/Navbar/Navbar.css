@@ -1,0 +1,18 @@
+.navbar-wrapper {
+    height: 4.75rem;
+    padding: 0.74rem;
+    background-color: #2455f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+}
+.add-to-cart-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.add-to-cart-btn i {
+    color: white;
+}

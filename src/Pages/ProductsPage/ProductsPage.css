@@ -1,0 +1,7 @@
+.products-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    gap: 1rem;
+    width: 90%;
+    margin: 2rem auto;
+}
