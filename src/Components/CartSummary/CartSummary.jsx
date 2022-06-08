@@ -5,9 +5,17 @@ export default function CartSummary() {
     const {
         productState: { cart },
     } = useProduct();
-    const total = cart?.reduce((accum, current) => {
-        return (accum += Number(current.price));
-    }, 0);
+    const priceDetails = cart?.reduce(
+        (accum, current) => {
+            return {
+                ...accum,
+                actualPrice: accum.actualPrice + Number(current.actualPrice),
+                discountedPrice: accum.discountedPrice + Number(current.price),
+            };
+        },
+        { actualPrice: 0, discountedPrice: 0 }
+    );
+
     return (
         <div className="cart-summary-wrapper">
             <h2>Cart Summary</h2>
@@ -27,7 +35,31 @@ export default function CartSummary() {
             <div>
                 <hr />
                 <h3 className="item">
-                    Total: <i className="fa-solid fa-indian-rupee-sign"></i> {total}
+                    <span>Actual Price:</span>
+                    <span>
+                        <i className="fas fa-rupee-sign"></i>
+                        {priceDetails.actualPrice}
+                    </span>
+                </h3>
+            </div>
+            <div>
+                <hr />
+                <h3 className="item">
+                    <span>Total Discount:</span>
+                    <span>
+                        <i className="fas fa-rupee-sign"></i>
+                        {priceDetails.actualPrice - priceDetails.discountedPrice}
+                    </span>
+                </h3>
+            </div>
+            <div>
+                <hr />
+                <h3 className="item">
+                    <span>Total:</span>
+                    <span>
+                        <i className="fas fa-rupee-sign"></i>
+                        {priceDetails.discountedPrice}
+                    </span>
                 </h3>
             </div>
         </div>

@@ -18,7 +18,7 @@ export default function SaveLaterCard({ product }) {
             <div className="card-actions">
                 <button
                     className="btn-primary"
-                    onClick={() => productDispatch({ type: "ADD_TO_CART", payload: { product } })}
+                    onClick={() => productDispatch({ type: "MOVE_TO_CART", payload: { product } })}
                 >
                     Move to Cart
                 </button>

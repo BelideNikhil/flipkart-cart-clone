@@ -3,36 +3,42 @@
         "id": "1",
         "title": "MOTOROLA edge 30",
         "imgUrl": "https://rukminim1.flixcart.com/image/416/416/l2xmqvk0/mobile/c/c/6/-original-image674baxnax85.jpeg?q=70",
-        "price": "27999"
+        "price": "27999",
+        "actualPrice": "29999"
     },
     {
         "id": "2",
         "title": "realme GT 2 Pro",
         "price": "49999",
-        "imgUrl": "https://rukminim1.flixcart.com/image/416/416/l1mh7rk0/mobile/x/s/t/-original-imagd5gkjgamyjzw.jpeg?q=70"
+        "imgUrl": "https://rukminim1.flixcart.com/image/416/416/l1mh7rk0/mobile/x/s/t/-original-imagd5gkjgamyjzw.jpeg?q=70",
+        "actualPrice": "54999"
     },
     {
         "id": "3",
         "title": "APPLE iPhone 13 Pro",
         "price": "169900",
-        "imgUrl": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/c/j/j/-original-imagca5hhzsgpycf.jpeg?q=70"
+        "imgUrl": "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/c/j/j/-original-imagca5hhzsgpycf.jpeg?q=70",
+        "actualPrice": "19900"
     },
     {
         "id": "4",
         "title": "SAMSUNG Galaxy A33",
         "price": "25,499",
-        "imgUrl": "https://rukminim1.flixcart.com/image/416/416/l3xcr680/mobile/n/u/4/-original-imagexeyrcz5ckyy.jpeg?q=70"
+        "imgUrl": "https://rukminim1.flixcart.com/image/416/416/l3xcr680/mobile/n/u/4/-original-imagexeyrcz5ckyy.jpeg?q=70",
+        "actualPrice": "26999"
     },
     {
         "id": "5",
         "title": "OPPO A96",
         "price": "19999",
-        "imgUrl": "https://rukminim1.flixcart.com/image/416/416/l0zm64w0/mobile/a/f/6/-original-imagcnnaz48g4sjf.jpeg?q=70"
+        "imgUrl": "https://rukminim1.flixcart.com/image/416/416/l0zm64w0/mobile/a/f/6/-original-imagcnnaz48g4sjf.jpeg?q=70",
+        "actualPrice": "21999"
     },
     {
         "id": "6",
         "title": "JBL Tune 230NC",
         "price": "5999",
-        "imgUrl": "https://rukminim1.flixcart.com/image/416/416/l2jcccw0/headphone/y/w/p/-original-imagduyfccc4rqhd.jpeg?q=70"
+        "imgUrl": "https://rukminim1.flixcart.com/image/416/416/l2jcccw0/headphone/y/w/p/-original-imagduyfccc4rqhd.jpeg?q=70",
+        "actualPrice": "7999"
     }
 ]

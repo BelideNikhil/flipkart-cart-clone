@@ -47,7 +47,7 @@ export default function CartCard({ product }) {
                             className="btn-secondary"
                             onClick={() => productDispatch({ type: "REMOVE_FROM_CART", payload: { product } })}
                         >
-                            Remove to Cart
+                            Remove From Cart
                         </button>
                     </div>
                 </div>
